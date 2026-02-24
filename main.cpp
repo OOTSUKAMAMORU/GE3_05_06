@@ -65,6 +65,7 @@ struct SoundData {
 
 // DepthStencilTexTure
 Microsoft::WRL::ComPtr <ID3D12Resource> CreateDepthStencilTexturResource(const Microsoft::WRL::ComPtr <ID3D12Device>& device, int32_t width, int32_t height) {
+	
 	// 生成するResourceの設定
 	D3D12_RESOURCE_DESC resourceDesc{};
 	resourceDesc.Width = width;

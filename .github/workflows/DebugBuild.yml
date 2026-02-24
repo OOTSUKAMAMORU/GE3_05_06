@@ -6,7 +6,7 @@ on:
       - master
 
 env:
-  SOLUTION_FILE_PATH: project/GE3_DirectXGame.sln
+  SOLUTION_FILE_PATH: project/GE3.sln
   CONFIGURATION: Debug
 
 jobs:

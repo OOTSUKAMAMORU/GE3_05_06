@@ -40,6 +40,7 @@ struct ChunkHeader {
 	int32_t size;
 };
 
+
 // RIFFチャンクの構造体
 struct RiffHeder {
 	ChunkHeader chunk; // チャンクヘッダ

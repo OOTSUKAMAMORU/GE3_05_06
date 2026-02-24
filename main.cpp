@@ -432,14 +432,14 @@ assert(SUCCEEDED(hr));
 		D3D12_COLOR_WRITE_ENABLE_ALL;
 
 	// Shaderをコンパイルする
-	/*Microsoft::WRL::ComPtr <IDxcBlob> vertexShaderBlob = dxCommon->CompileShader(L"resources/shaders/Object3D.VS.hlsl",
+	Microsoft::WRL::ComPtr <IDxcBlob> vertexShaderBlob = dxCommon->CompileShader(L"resources/shaders/Object3D.VS.hlsl",
 		L"vs_6_0");
 	assert(vertexShaderBlob != nullptr);
 
 	Microsoft::WRL::ComPtr <IDxcBlob> pixelShaderBlob = dxCommon->CompileShader(L"resources/shaders/Object3D.PS.hlsl",
 		L"ps_6_0");
 	assert(pixelShaderBlob != nullptr);
-*/
+
 // モデル読み込み
 //ModelData modelData = LoadObjFile("resources", "plane.obj");
 

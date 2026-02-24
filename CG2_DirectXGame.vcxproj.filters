@@ -46,6 +46,12 @@
     <Filter Include="ヘッダー ファイル\utility">
       <UniqueIdentifier>{7582eb51-efd9-46f4-b89b-e9cf88728d11}</UniqueIdentifier>
     </Filter>
+    <Filter Include="resouces">
+      <UniqueIdentifier>{181da89f-f027-46d2-8c99-25fc2e108d3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resouces\shaders">
+      <UniqueIdentifier>{5ce1c9a5-b2de-404c-bf2a-011af5df2cd4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -104,8 +110,12 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="Object3d.VS.hlsl" />
-    <FxCompile Include="Object3d.PS.hlsl" />
+    <FxCompile Include="Object3d.PS.hlsl">
+      <Filter>resouces\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Object3d.VS.hlsl">
+      <Filter>resouces\shaders</Filter>
+    </FxCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="externals\imgui\LICENSE.txt" />
@@ -167,6 +177,8 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Object3d.hlsli" />
+    <None Include="Object3d.hlsli">
+      <Filter>resouces\shaders</Filter>
+    </None>
   </ItemGroup>
 </Project>

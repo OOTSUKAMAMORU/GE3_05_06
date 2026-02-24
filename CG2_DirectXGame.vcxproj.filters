@@ -16,35 +16,8 @@
     <Filter Include="imgui">
       <UniqueIdentifier>{b3d7eb27-d5b1-4fdc-a9d7-42cba4028db5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\2d">
-      <UniqueIdentifier>{a5ef8188-3f9d-4c71-a1f5-e37c96e31527}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ヘッダー ファイル\2d">
-      <UniqueIdentifier>{d20cc91a-c571-41be-aab0-877fc9b25b0b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソース ファイル\io">
-      <UniqueIdentifier>{ec9d96e2-c789-4220-ba2b-57197f841468}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソース ファイル\base">
-      <UniqueIdentifier>{80b37f4b-bc5e-4687-b291-4d2879114e3a}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソース ファイル\math">
-      <UniqueIdentifier>{19215cdd-66d5-4c28-b787-6987684f7c96}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ソース ファイル\utility">
       <UniqueIdentifier>{0d96a6b4-ecfc-42e6-abce-8f0c670dc798}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ヘッダー ファイル\io">
-      <UniqueIdentifier>{bce271f4-168d-442c-a8d0-e17918624d36}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ヘッダー ファイル\base">
-      <UniqueIdentifier>{aff8003a-dab9-473b-9ade-218eec6c7a5b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ヘッダー ファイル\math">
-      <UniqueIdentifier>{2d0c6d0a-b1f2-4a50-bcdd-2ba6c669716e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ヘッダー ファイル\utility">
-      <UniqueIdentifier>{7582eb51-efd9-46f4-b89b-e9cf88728d11}</UniqueIdentifier>
     </Filter>
     <Filter Include="resouces">
       <UniqueIdentifier>{181da89f-f027-46d2-8c99-25fc2e108d3b}</UniqueIdentifier>
@@ -52,11 +25,50 @@
     <Filter Include="resouces\shaders">
       <UniqueIdentifier>{5ce1c9a5-b2de-404c-bf2a-011af5df2cd4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\engine">
+      <UniqueIdentifier>{e55ed97b-5059-4e9b-8b87-b9ec24764a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\engine\2d">
+      <UniqueIdentifier>{a5ef8188-3f9d-4c71-a1f5-e37c96e31527}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\engine\2d\base">
+      <UniqueIdentifier>{80b37f4b-bc5e-4687-b291-4d2879114e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\engine\io">
+      <UniqueIdentifier>{ec9d96e2-c789-4220-ba2b-57197f841468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\engine\2d\math">
+      <UniqueIdentifier>{19215cdd-66d5-4c28-b787-6987684f7c96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\engine\application">
+      <UniqueIdentifier>{fe5218ba-2c09-4fdc-bd15-9f07f36238a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\engine">
+      <UniqueIdentifier>{8f00e069-a042-452d-abfe-9fed478b2670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\engine\2d">
+      <UniqueIdentifier>{d20cc91a-c571-41be-aab0-877fc9b25b0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\engine\base">
+      <UniqueIdentifier>{aff8003a-dab9-473b-9ade-218eec6c7a5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\engine\io">
+      <UniqueIdentifier>{bce271f4-168d-442c-a8d0-e17918624d36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\engine\math">
+      <UniqueIdentifier>{2d0c6d0a-b1f2-4a50-bcdd-2ba6c669716e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\engine\NewFilter1">
+      <UniqueIdentifier>{5f9506b3-5aa6-4cbd-a54b-b43608913462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\engine\utility">
+      <UniqueIdentifier>{7582eb51-efd9-46f4-b89b-e9cf88728d11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\engine\application">
+      <UniqueIdentifier>{cee045d1-4a76-4991-a604-59985e14a4c9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="externals\imgui\imgui.cpp">
       <Filter>imgui</Filter>
     </ClCompile>
@@ -79,25 +91,25 @@
       <Filter>imgui</Filter>
     </ClCompile>
     <ClCompile Include="engine\2d\SpriteCommon.cpp">
-      <Filter>ソース ファイル\2d</Filter>
+      <Filter>ソース ファイル\engine\2d</Filter>
     </ClCompile>
     <ClCompile Include="engine\2d\Sprite.cpp">
-      <Filter>ソース ファイル\2d</Filter>
+      <Filter>ソース ファイル\engine\2d</Filter>
     </ClCompile>
     <ClCompile Include="engine\io\Input.cpp">
-      <Filter>ソース ファイル\io</Filter>
+      <Filter>ソース ファイル\engine\io</Filter>
     </ClCompile>
     <ClCompile Include="engine\io\D3DResourceLeakChecker.cpp">
-      <Filter>ソース ファイル\io</Filter>
+      <Filter>ソース ファイル\engine\io</Filter>
     </ClCompile>
     <ClCompile Include="engine\base\WinApp.cpp">
-      <Filter>ソース ファイル\base</Filter>
+      <Filter>ソース ファイル\engine\2d\base</Filter>
     </ClCompile>
     <ClCompile Include="engine\base\DirectXCommon.cpp">
-      <Filter>ソース ファイル\base</Filter>
+      <Filter>ソース ファイル\engine\2d\base</Filter>
     </ClCompile>
     <ClCompile Include="engine\math\Mymath.cpp">
-      <Filter>ソース ファイル\math</Filter>
+      <Filter>ソース ファイル\engine\2d\math</Filter>
     </ClCompile>
     <ClCompile Include="engine\utility\Logger.cpp">
       <Filter>ソース ファイル\utility</Filter>
@@ -106,7 +118,10 @@
       <Filter>ソース ファイル\utility</Filter>
     </ClCompile>
     <ClCompile Include="engine\2d\TextureManager.cpp">
-      <Filter>ソース ファイル\2d</Filter>
+      <Filter>ソース ファイル\engine\2d</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\engine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -146,34 +161,34 @@
       <Filter>imgui</Filter>
     </ClInclude>
     <ClInclude Include="engine\2d\Sprite.h">
-      <Filter>ヘッダー ファイル\2d</Filter>
+      <Filter>ヘッダー ファイル\engine\2d</Filter>
     </ClInclude>
     <ClInclude Include="engine\2d\SpriteCommon.h">
-      <Filter>ヘッダー ファイル\2d</Filter>
+      <Filter>ヘッダー ファイル\engine\2d</Filter>
     </ClInclude>
     <ClInclude Include="engine\io\D3DResourceLeakChecker.h">
-      <Filter>ヘッダー ファイル\io</Filter>
+      <Filter>ヘッダー ファイル\engine\io</Filter>
     </ClInclude>
     <ClInclude Include="engine\io\Input.h">
-      <Filter>ヘッダー ファイル\io</Filter>
+      <Filter>ヘッダー ファイル\engine\io</Filter>
     </ClInclude>
     <ClInclude Include="engine\base\DirectXCommon.h">
-      <Filter>ヘッダー ファイル\base</Filter>
+      <Filter>ヘッダー ファイル\engine\base</Filter>
     </ClInclude>
     <ClInclude Include="engine\base\WinApp.h">
-      <Filter>ヘッダー ファイル\base</Filter>
+      <Filter>ヘッダー ファイル\engine\base</Filter>
     </ClInclude>
     <ClInclude Include="engine\math\Mymath.h">
-      <Filter>ヘッダー ファイル\math</Filter>
+      <Filter>ヘッダー ファイル\engine\math</Filter>
     </ClInclude>
     <ClInclude Include="engine\utility\Logger.h">
-      <Filter>ヘッダー ファイル\utility</Filter>
+      <Filter>ヘッダー ファイル\engine\utility</Filter>
     </ClInclude>
     <ClInclude Include="engine\utility\StringUtility.h">
-      <Filter>ヘッダー ファイル\utility</Filter>
+      <Filter>ヘッダー ファイル\engine\utility</Filter>
     </ClInclude>
     <ClInclude Include="engine\2d\TextureManager.h">
-      <Filter>ヘッダー ファイル\2d</Filter>
+      <Filter>ヘッダー ファイル\engine\2d</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

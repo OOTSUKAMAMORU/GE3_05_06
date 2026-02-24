@@ -81,6 +81,7 @@ Microsoft::WRL::ComPtr <ID3D12Resource> CreateDepthStencilTexturResource(const M
 	D3D12_HEAP_PROPERTIES heapProperties{};
 	heapProperties.Type = D3D12_HEAP_TYPE_DEFAULT;
 
+
 	// 深度値のクリア設定
 	D3D12_CLEAR_VALUE depthClearValue{};
 	depthClearValue.DepthStencil.Depth = 1.0f;

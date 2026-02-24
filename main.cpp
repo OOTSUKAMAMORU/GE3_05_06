@@ -89,6 +89,7 @@ Microsoft::WRL::ComPtr <ID3D12Resource> CreateDepthStencilTexturResource(const M
 	depthClearValue.DepthStencil.Depth = 1.0f;
 	depthClearValue.Format = DXGI_FORMAT_D24_UNORM_S8_UINT;
 
+
 	// Resourceの生成
 	Microsoft::WRL::ComPtr <ID3D12Resource> resource = nullptr;
 	HRESULT hr = device->CreateCommittedResource(
